@@ -1,6 +1,3 @@
-# EstruturasDeDados1Teste
-Repositório dedicado ao estudo de estruturas de dados como listas encadeadas, listas ordenadas e árvores binárias utilizando Python. Este repositório contém exemplos práticos e explicações para facilitar o aprendizado e a aplicação desses conceitos
-
 Este código implementa um contador de "b"s consecutivos no final de uma cadeia, usando um Autômato Finito Determinístico (AFD).
 A Memória (Estados): O AFD usa quatro estados (q0 a q3) para "lembrar" quantos 'b's consecutivos foram lidos por último. Por exemplo, q2 significa que a cadeia terminou em 'bb'.
 Regra principal Sempre que o autômato lê um 'b', ele avança para o próximo estado (aumenta o contador).
